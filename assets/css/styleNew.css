@@ -1,0 +1,151 @@
+html,
+body{
+	margin: 0px;
+	height: 100%;
+	font-family: FreeSans, Arial;
+	font-size: 0.90em;
+	color: #938b7e;
+
+}
+
+.root{
+	height: 100%;
+	width: 100%;
+	display:table;
+
+}
+
+.container{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.login-container{
+	width: 330px;
+	height: 225px;
+	background-color: #f6f5f4;
+	border-radius: 20px;
+	margin: auto;
+	text-align: center;
+}
+
+.login-title{
+	font-size: 1.25em;
+	text-align: center;
+	padding-top: 15px; 
+}
+
+.error-message{
+	color: red;
+	font-size: 1em;
+	margin-top:  -5px;
+	width: 100%;
+	position: relative;
+  -webkit-animation: fadein 1s;
+  -moz-animation: fadein 1s;
+  -ms-animation: fadein 1s;
+  -o-animation: fadein 1s;
+  animation: fadein 1s;
+
+
+}
+
+input{
+    padding: 6px;
+    border: solid 1px #E5E5E5;
+    outline: 0;
+    width: 200px;
+    background: #e3dfdb;
+    margin-top: 15px;
+    border-radius: 5px;
+      }
+
+ input[type="text"]{
+    text-align: left;
+    background-image: url(../img/user-icon.png);
+    background-repeat: no-repeat;
+    background-position: 5px 2px !important;
+    padding-left: 37px;
+    height: 18px;
+  }
+
+   input[type="password"]{
+    text-align: left;
+    background-image: url(../img/password-icon.png);
+    background-repeat: no-repeat;
+    background-position: 5px 1px !important;
+    padding-left: 37px;
+    height: 18px;
+  }
+
+  input[type="submit"]{
+  	margin-top: 15px;
+  	color: white;
+  	width: 243px;
+  	background-color: #50bfa4;
+    text-align: center;
+  }
+
+  input[type="submit"]:hover{
+  	font-size: 1.03em;
+  	color: white;
+  	width: 243px;
+  	background-image: url(../img/button_hover.png);
+  	background-repeat: repeat-x;
+  	background-position: bottom;
+  	margin-bottom: 0px;
+
+  }
+
+:-webkit-input-placeholder { color:#938b7e; }
+::-moz-placeholder { color:#938b7e; } /* firefox 19+ */
+:-ms-input-placeholder { color:#938b7e; } /* ie */
+input:-moz-placeholder { color:#938b7e; }
+
+/* animation cross_browser */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@-webkit-keyframes fadeout {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@-moz-keyframes fadeout {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@-ms-keyframes fadeout {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@-o-keyframes fadein {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes fadeout {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}

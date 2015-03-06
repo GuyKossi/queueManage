@@ -1,0 +1,10 @@
+	# Configurazione per single entry point
+	RewriteEngine On
+	RewriteRule ^/?fastqueue$ %{DOCUMENT_ROOT}/fastqueue/index.php [L]
+	RewriteRule ^/?fastqueue/ajax(/.*)?$ %{DOCUMENT_ROOT}/fastqueue/index.php [L]
+	RewriteRule ^/?fastqueue/api(/.*)?$ %{DOCUMENT_ROOT}/fastqueue/index.php [L]
+	RewriteRule ^/?fastqueue/application(/.*)?$ %{DOCUMENT_ROOT}/fastqueue/index.php [L]
+	RewriteRule ^/?fastqueue/device(/.*)?$ %{DOCUMENT_ROOT}/fastqueue/index.php [L]
+	RewriteRule ^/?fastqueue/globalServer(/.*)?$ %{DOCUMENT_ROOT}/fastqueue/index.php [L]
+	RewriteRule ^/?fastqueue/totem(/.*)?$ %{DOCUMENT_ROOT}/fastqueue/index.php [L]
+	RewriteRule ^/?fastqueue/web(/.*)?$ %{DOCUMENT_ROOT}/fastqueue/index.php [L]
